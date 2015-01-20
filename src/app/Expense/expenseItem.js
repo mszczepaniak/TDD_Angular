@@ -1,3 +1,4 @@
+
 function ExpenseItem(expenseAmount) {
-	this.amount = expenseAmount;
+    this.amount = expenseAmount;
 }
