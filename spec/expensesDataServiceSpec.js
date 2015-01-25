@@ -34,6 +34,8 @@ describe('expensesDataService', function(){
 		it('lunch should not be a reasonable expense', function(){
 			 expect(lunch).not.toBeAReasonableExpense();
 		});
+
+		
 	});
 });
 
