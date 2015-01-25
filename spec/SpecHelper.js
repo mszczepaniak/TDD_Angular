@@ -9,7 +9,7 @@ var customMatchers = {
 
                 return {
                     pass: pass,
-                    message: 'Expected expense to be a' + judgement + 'expense.'
+                    message: 'Expected expense to be an ' + judgement + ' expense.'
                 } ;
             }
         };
