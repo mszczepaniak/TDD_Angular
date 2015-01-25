@@ -1,3 +1,5 @@
+
+//here we are going to declare our custom matcher 
 var customMatchers = {
     toBeAReasonableExpense: function(){
         return{
@@ -5,11 +7,11 @@ var customMatchers = {
                 var pass = actual.isReasonable();
                 var judgement = pass ? 'unreasonable' : 'reasonable';
 
-                return{
+                return {
                     pass: pass,
-                    message: 'Expected expense to be a ' + judgement + ' expense.'
-                };
+                    message: 'Expected expense to be a' + judgement + 'expense.'
+                } ;
             }
         };
     }
-}
+};
