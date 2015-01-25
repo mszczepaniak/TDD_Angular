@@ -1,4 +1,3 @@
-
 describe("Expense objects", function(){
 
     var expenseItem, expense;
